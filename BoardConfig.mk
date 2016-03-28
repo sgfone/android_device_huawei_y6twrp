@@ -129,10 +129,7 @@ BOARD_SEPOLICY_UNION += \
     mm-qcamerad.te \
     mpdecision.te \
     netd.te \
-    system_server.te \
-    recovery.te \
-    service.te \
-    service_contexts
+    system_server.te 
 
 # Vold
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file

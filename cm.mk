@@ -20,16 +20,13 @@ TARGET_SCREEN_WIDTH := 720
 # Inherit from these products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit device configuration
-$(call inherit-product, device/huawei/y6/msm8909_32.mk)
-
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_NAME := cm_y6twrp
-PRODUCT_DEVICE := y6
+PRODUCT_DEVICE := y6twrp
 PRODUCT_MANUFACTURER := Huawei
-PRODUCT_MODEL := y6
+PRODUCT_MODEL := y6twrp
 PRODUCT_BRAND := Huawei
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
